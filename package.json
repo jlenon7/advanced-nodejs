@@ -1,0 +1,19 @@
+{
+  "name": "advanced-nodejs",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "fs",
+    "path",
+    "url",
+    "udp",
+    "crypto"
+  ],
+  "repository": "https://github.com/jlenon7/advanced-nodejs",
+  "author": "João Lenon <lenonsec7@gmail.com>",
+  "license": "MIT"
+}
