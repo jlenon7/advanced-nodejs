@@ -1,9 +1,9 @@
 const fs = require("fs")
 
 console.log(((process.hrtime()[0]/60).toFixed(5)))
-console.log("Antes da leitura do arquivo")
+console.log("After file read")
 
-fs.readFile("file.txt", (err, data) => {
+fs.readFile("file.txt", (err) => {
   if (err) throw err
   console.log("File reading finished!")
 })
